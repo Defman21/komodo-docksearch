@@ -1,0 +1,36 @@
+#msg-info-box,
+#msg-warn-box,
+#msg-error-box {
+	margin: 0px 5px;
+	padding: 2px;
+	-moz-border-radius: 7px;
+}
+#msg-info-box {
+	background-color: #d6e3f2;
+	border: 1px solid #bbb;	
+}
+#msg-warn-box {
+	background-color: #FFF1A8;
+	border: 1px solid #bbb;
+}
+#msg-error-box {
+	background-color: #eecbcb;
+	border: 1px solid #bbb;
+}
+	#msg-info-box hbox,
+	#msg-warn-box hbox,
+	#msg-error-box hbox {
+		padding-right: 3px;
+	}
+
+#includes-row,
+#excludes-row {
+	width: 5.6em;
+}
+#find-buttons {
+	width: 11em;
+}
+	#find-buttons button,
+	#find-buttons checkbox {
+		margin-top: 0px;
+	}

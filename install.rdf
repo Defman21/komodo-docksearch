@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#" xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<Description about="urn:mozilla:install-manifest">
+	
+		<em:id>docksearch@deboot.sk</em:id>
+		<em:name>Dock Search</em:name>
+		<em:version>0.1.2</em:version>
+		<em:description>Docks the search dialog to the bottom tabset</em:description>
+		<em:creator>Peter 'deb00t' Nemšák</em:creator>
+		<em:iconURL>chrome://docksearch/skin/icon.png</em:iconURL>
+		<em:homepageURL>http://dev.deboot.sk/komodo/docksearch/</em:homepageURL>
+		
+		<em:type>2</em:type>
+
+		<em:targetApplication>
+			<Description>
+				<!-- Komodo IDE's uuid -->
+				<em:id>{36E66FA0-F259-11D9-850E-000D935D3368}</em:id>
+				<em:minVersion>7.0</em:minVersion>
+				<em:maxVersion>*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		<em:targetApplication>
+			<Description>
+				<!-- Komodo Edit's uuid -->
+				<em:id>{b1042fb5-9e9c-11db-b107-000d935d3368}</em:id>
+				<em:minVersion>7.0</em:minVersion>
+				<em:maxVersion>*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+	</Description>
+
+</RDF>

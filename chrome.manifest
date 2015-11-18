@@ -1,0 +1,4 @@
+content docksearch content/
+skin docksearch classic/1.0 skin/
+
+overlay chrome://komodo/content/komodo.xul chrome://docksearch/content/overlay.xul
