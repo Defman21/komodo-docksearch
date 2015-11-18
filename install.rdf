@@ -4,9 +4,10 @@
 	
 		<em:id>docksearch@deboot.sk</em:id>
 		<em:name>Dock Search</em:name>
-		<em:version>0.1.2</em:version>
-		<em:description>Docks the search dialog to the bottom tabset</em:description>
+		<em:version>0.1.3</em:version>
+		<em:description>Docks the search dialog to any pane</em:description>
 		<em:creator>Peter 'deb00t' Nemšák</em:creator>
+        <em:contributor>Sergey Kislyakov</em:contributor>
 		<em:iconURL>chrome://docksearch/skin/icon.png</em:iconURL>
 		<em:homepageURL>http://dev.deboot.sk/komodo/docksearch/</em:homepageURL>
 		
